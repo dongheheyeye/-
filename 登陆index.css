@@ -1,0 +1,83 @@
+.box{
+    width: 600px;
+    height: 1060px;
+    background-color: aqua;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/Base.png);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+}
+.sign1{
+    width: 50px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    margin-top: 32px;
+    margin-left: 17px;
+}
+.sign2{
+    width: 50px;
+    height: 50px;
+    margin-top: 32px;
+    margin-right: 17px;
+    /* background-color: antiquewhite; */
+}
+.sign3{
+    height: 33px;
+    width: 114px;
+    /* background-color: aqua; */
+    margin-top: 45px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    /* background-color: aqua; */
+    margin: 90px auto 0;
+}
+.information{
+    /* background-color: aqua; */
+    font-size: 25px;
+    color: white;
+    width: 450px;
+    height: 328px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.information input{
+    border: none;
+    /* 消除边框 */
+    background: transparent;
+    /* 设置透明色 */
+    border-bottom: 1px solid rgb(210, 209, 209);
+    /* 设置下划线 */
+}
+p{
+    color:aquamarine;
+}
+.box2{
+    display: flex;
+    justify-content:space-between;
+}
+.sign-up{
+    /* background-color: aquamarine; */
+    width: 450px;
+    height: 75px;
+
+}
+.box1{
+    width: 450px;
+    margin: 44px auto 0;
+}
+.sign-in{
+    height: 26px;
+    width: 280px;
+    /* background-color: blueviolet; */
+    margin: 30px auto 0;
+    font-size: 21px;
+}
+.one{
+    color: aquamarine;
+}
