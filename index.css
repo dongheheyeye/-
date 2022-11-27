@@ -1,0 +1,390 @@
+body{
+    /* background-color: rgb(5, 5, 5); */
+}
+.Top{
+    position: relative;
+    height: 814px;
+    width: 100%;
+    /* background-color:#ffffff; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%201.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+.top_title{
+    width: 1200px;
+    height: 95px;
+    display: flex;
+}
+.top_word{
+    height: 213px;;
+    width: 994px;;
+    /* background-color:aquamarine; */
+    margin: 325px auto;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/The%20best%20pen%20is%20%20just%20LAMY.png);
+}
+.top_title div{
+    /*设置字体*/
+    color: aliceblue;
+    font-size: 25px;
+    line-height: 95px;
+    text-align: center;;
+    height: 95px;
+    width: 240px;
+}
+.top_title :nth-child(3){
+    background-color:red;
+    line-height:120px;
+    text-align: center;
+}
+
+.Detail{
+    position: relative;
+    height: 1320px;
+    width: 100%;
+    /* background-color:#ffffff; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%203.png);
+    background-position:0px 20px;
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+    /* background-position: top center ; */
+}
+.det_wle{
+    height: 506px;
+    width: 1148px;
+    /* background-color:pink; */
+    margin: 63px auto;
+    display: flex;
+    justify-content:space-between;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%206.png);
+    background-position: 417px top;
+    background-repeat: no-repeat;
+    box-shadow: -5px 5px 10px black;
+}
+.det_wle_img{
+    width: 417px;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%205.png);
+}
+.det_wle_word{
+    width: 652px;
+    height: 347px;
+    /* background-color: aqua; */
+    margin-top: 75px ;
+    margin-right: 10px;
+}
+.det_wle_word .top2{
+  font-size: 20px;
+}
+.det_wle_video{
+    width: 362px;
+    height: 233px;
+    /* background-color:palegreen; */
+    position:absolute;
+    margin: 376px 120px;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%204.png);
+     line-height: 233px;
+    text-align: center;
+    background-position: center;
+}
+.det_kinds{
+    width: 1140px;
+    height: 396px;
+    /* background-color: aqua; */
+    margin: 170px auto;
+}
+.det_kinds_title{
+    text-align: center;
+}
+.det_kinds_text div{
+    margin-top: 90px;
+    float: left;
+    width: 380px;
+    height: 220px;
+    /* background-color: pink; */
+    text-align: center;
+}
+.det_kinds_botton{
+    width: 242px;
+    height: 62px;
+    background-color: black;
+    margin: 420px auto 0;
+    line-height: 62px;
+    color: #ffffff;
+    font-size: 25px;
+    text-align:end;
+}
+.purchase{
+    position: relative;
+    height: 1740px;
+    width: 100%;
+    /* background-color:aquamarine; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/123456.png);
+    background-repeat: no-repeat;
+    /* background-position:  top center; */
+    background-size: 100% 732px;
+}
+.pur_pen{
+    display: flex;
+    height: 389px;
+    width: 100%;
+    /* background-color:aqua; */
+    position: relative;
+    flex-direction:column;
+}
+.pur_pen :nth-child(1){
+    height: 224px;
+    width: 100%;
+    /* background-color:pink; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/red%20pen.png);
+    text-align: center;
+    background-position: top center;
+}
+.pur_pen :nth-child(2){
+    height: 165px;
+    width: 100%;
+    /* background-color:palegreen; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/yellow%20pen.png);
+    text-align: center;
+    background-position: bottom;
+}
+.pur_pen :nth-child(3){
+    width: 88px;
+    height: 34px;
+    background-color:#e8024d;
+    position: absolute;
+    margin: 200px 44px;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/LAMY.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.pur_card{
+    width: 817px;
+    height: 366px;
+    /* background-color: aqua; */
+    margin: 77px auto;
+}
+.pur_card_title{
+    width: 310px;
+    height: 62px;
+    /* background-color: pink; */
+    margin: 0 auto;
+    /* background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/Form%20Germany.png),url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/What%20people%20are%20saying__.png); */
+    text-align: center;
+}
+.pur_card_box{
+    height: 271px;
+    width: 100%;
+    /* background-color: palegreen; */
+    margin-top: 35px;
+    overflow: hidden;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%2011.png);
+    background-position:  top ;
+    box-shadow: -5px 5px 10px  black;
+    /* overflow:hidden  取消边距重叠 */
+}
+.pur_card_box1{
+height: 70px;
+width: 70px;
+/* background-color: pink; */
+margin: 45px auto 0;
+background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E6%A4%AD%E5%9C%86%202.png);
+}
+.pur_card_box2{
+width: 534px;
+height: 57px;
+/* background-color: pink; */
+margin: 28px auto 0;
+text-align: center;
+}
+.pur_card_box3{
+    display: flex;
+    width: 195px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+    /* background-color: pink; */
+    justify-content: space-evenly;
+}
+.pur_card_box3 div{
+    width: 60px;
+    height: 10px;
+    background-color:#e6e4e4;
+}
+.pur_card_box3 :nth-child(1){
+    background-color:#807a7a;
+
+}
+.pur_showing{
+    width: 886px;
+    height: 651px;
+    /* background-color: aqua; */
+    margin: 84px auto 0;
+}
+.pur_showing_title{
+    width: 160px;
+    height: 52px;
+    /* background-color: pink; */
+    margin: 0 auto;
+    text-align: center;
+}
+.pur_showing_pic{
+    display: flex;
+    height: 551px;
+    width: 100%;
+    /* background-color: pink; */
+    margin-top: 49px;
+    justify-content: space-between;
+}
+.box{
+    width: 250px;
+    height: 100%;
+    /* background-color: palegreen; */
+    position: relative;
+}
+.box1{
+    height: 226px;
+    width: 100%;
+    background-color:aquamarine ;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/2.png);
+}
+.box2{
+    height: 300px;
+    width: 100%;
+    background-color:aquamarine  ;
+    position: absolute;
+    bottom: 0;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/1.png);
+}
+.box3{
+    height: 366px;
+    width: 100%;
+    background-color: aquamarine ;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/3.png);
+}
+.box4{
+    height: 160px;
+    width: 100%;
+    background-color:aquamarine  ;
+    position: absolute;
+    bottom: 0;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/4.png);
+}
+.box5{
+    height: 220px;
+    width: 100%;
+    background-color:aquamarine  ;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/5.png);
+}
+.box6{
+    height: 300px;
+    width: 100%;
+    background-color:aquamarine  ;
+    position: absolute;
+    bottom:0;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/6.png);
+}
+.pur_button{
+    height: 62px;
+    width: 220px;
+    background-color: #4a3e42;
+    margin: 77px auto 0;
+    font-size: 30px;
+    text-align: end;
+    line-height: 62px;
+    color:white;
+}
+.recommend{
+    position: relative;
+    height: 682px;
+    width: 100%;
+     /* background-color: pink;  */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%2016.png);
+    background-repeat: no-repeat;
+    /* background-position:  top center; */
+    background-size: 100% 374px;
+}
+.rec_content{
+    width: 873px;
+    height: 436px;
+    background-color: white;
+    margin: 88px auto 0;
+    overflow:hidden;
+    box-shadow: -5px 5px 10px  black;
+}
+.rec_content_pen{
+    display: flex;
+    width: 832px;
+    height: 123px;
+    /* background-color: aquamarine; */
+    margin: 16px auto 0;
+    justify-content: space-between;
+}
+.rec_content_pen_img{
+    width: 374px;
+    height:100%;
+    /* background-color:aqua; */
+}
+.rec_content_pen_text{
+    width: 430px;
+    height: 100%;
+    /* background-color: aqua; */
+    font-size: 20px;
+    text-align: left;
+}
+.ret_botton{
+    width: 200px;
+    height: 60px;
+    background-color:#e8024d;
+    margin: 37px auto 0;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: end;
+    line-height: 60px;
+}
+.bottom{
+    position: relative;
+    height: 950px;
+    width:100%;
+    /* background-color:aqua; */
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E5%B1%82%202.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.bot_text{
+    width: 537px;
+    height: 76px;
+    /* background-color:aquamarine; */
+    margin: 230px auto 0 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bot_text img{
+    margin-right: 50px;
+}
+.last{
+    height: 34px;
+    width: 100%;
+    /* background-color:#535353; */
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.last_text{
+    width: 245px;
+    height: 100%;
+    /* background-color: pink; */
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    line-height:  34px;
+    color: #b9b8b8;
+}
+.center{
+    width: 1200px;
+    height:100%;
+    /* background-color:#ffffff; */
+    margin: 0 auto;
+    overflow: hidden;
+}
